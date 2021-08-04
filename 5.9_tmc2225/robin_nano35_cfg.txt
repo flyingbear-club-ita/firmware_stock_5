@@ -133,9 +133,9 @@
 >HOTEND_OFFSET_Y 	5.00  		#y轴偏移(单位:mm) 
 #============================== 步进电机设置 ============================
 #电机方向配置.
->INVERT_X_DIR 	                0	
->INVERT_Y_DIR 	               1
->INVERT_Z_DIR                	1
+>INVERT_X_DIR 	                1	
+>INVERT_Y_DIR 	                1
+>INVERT_Z_DIR                	0
 >INVERT_E0_DIR           	0
 >INVERT_E1_DIR           	0
 
@@ -149,7 +149,7 @@
 >DEFAULT_X_MAX_FEEDRATE		300	#X轴默认速度 (mm/s)		
 >DEFAULT_Y_MAX_FEEDRATE		300	#Y轴默认速度 (mm/s)		
 >DEFAULT_Z_MAX_FEEDRATE		5	#Z轴默认速度 (mm/s)		
->DEFAULT_E0_MAX_FEEDRATE	10	#E轴默认速度 (mm/s)		
+>DEFAULT_E0_MAX_FEEDRATE	70	#E轴默认速度 (mm/s)		
 >DEFAULT_E1_MAX_FEEDRATE	70	#E轴默认速度 (mm/s)	
 
 >DEFAULT_X_MAX_ACCELERATION	1000	#X轴默认最大加速度 (change/s) change = mm/s
@@ -158,7 +158,7 @@
 >DEFAULT_E0_MAX_ACCELERATION	80000	#E轴默认最大加速度 (change/s) change = mm/s
 >DEFAULT_E1_MAX_ACCELERATION	10000	#E轴默认最大加速度 (change/s) change = mm/s
 
->DEFAULT_ACCELERATION		100	#X,Y,Z,E 打印时的默认加速度		
+>DEFAULT_ACCELERATION		50	#X,Y,Z,E 打印时的默认加速度		
 >DEFAULT_RETRACT_ACCELERATION	30000	#X,Y,Z,E 回抽默认加速度		
 >DEFAULT_TRAVEL_ACCELERATION	3000	#X,Y,Z 非打印时的默认加速度	
 >DEFAULT_MINIMUMFEEDRATE	0.0	#默认最小速度						
@@ -296,8 +296,8 @@
 >WISI_LIST_SCAN                 1                       #是否使用wifi列表扫描（1：使用，0：禁止）
 
 #关于信息
->about_type:V5.8-T25
->about_version:V5.8-T25
+>about_type:V5.93-T2225
+>about_version:V5.93-T2225
 >about_company:support@3dflyingbear.com
 >about_email:adam@3dflyingbear.com
  
